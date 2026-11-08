@@ -1,0 +1,31 @@
+## .NET build outputs
+bin/
+obj/
+out/
+
+## Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+## Test/unit result files
+TestResults/
+*.trx
+*.coverage
+
+## NuGet
+*.nupkg
+packages/
+
+## OS
+Thumbs.db
+.DS_Store
+
+## Local data / deney çıktıları (repo dışına ayrıca yedeklanır)
+data/**/*.csv
+analysis/.ipynb_checkpoints/
+
+## Yerel gizli bilgiler
+.env

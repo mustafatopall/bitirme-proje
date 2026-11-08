@@ -1,0 +1,6 @@
+@GibAdapter_HostAddress = http://localhost:5249
+
+GET {{GibAdapter_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

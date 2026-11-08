@@ -1,0 +1,6 @@
+@GibSimulator_HostAddress = http://localhost:5213
+
+GET {{GibSimulator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

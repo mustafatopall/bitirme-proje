@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: efatura-servisler
+    metrics_path: /metrics
+    static_configs:
+      - targets:
+          - 'gateway:8080'
+          - 'faturaservisi:8080'
+          - 'zarfservisi:8080'
+          - 'gibadapter:8080'
+          - 'gibsimulator:8080'
